@@ -9,6 +9,7 @@ function setup(){
         droplets[i].x=80*i+40;
         droplets[i].elasticity= 1-(droplets[i].radius/75);
     }
+    frameRate(100);
     //a = random(windowHeight/0.8,windowHeight);
     // for(let i=0;i<20;i++){
     //     droplets1[i]=new drops();
